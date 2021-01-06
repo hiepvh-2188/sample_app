@@ -14,6 +14,9 @@ gem 'bootstrap-sass'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rails-controller-testing'
 gem 'bcrypt', '~> 3.1.13'
+gem 'faker', '2.1.2'
+gem 'will_paginate', '3.1.8'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
